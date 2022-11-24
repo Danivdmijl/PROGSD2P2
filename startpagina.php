@@ -1,3 +1,7 @@
+<?php
+include "private/shared/header.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,4 +22,7 @@
 </footer>
   Privacy verklaring
 </body>
+<?php
+include "private/shared/footer.php";
+?>
 </html>
