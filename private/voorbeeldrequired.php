@@ -1,2 +1,2 @@
-<?php
-require "voorbeeld.php";
+<!-- <?php
+require "voorbeeld.php"; ?> -->

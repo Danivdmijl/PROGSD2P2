@@ -1,7 +1,7 @@
-<?php include "../private/shared/header.php"; ?>
+<?php include "/Downloads/xamp/htdocs/PROGSD2P2/private/shared/header.php"; ?>
 
 <h1>
   Standaard tekst
 </h1>
 
-<?php include "../private/shared/footer.php"; ?>
+<?php include "/Downloads/xamp/htdocs/PROGSD2P2/private/shared/footer.php"; ?>
