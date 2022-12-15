@@ -1,18 +1,10 @@
 <?php
-include "/Downloads/xamp/htdocs/PROGSD2P2/private";
-include "/Downloads/xamp/htdocs/PROGSD2P2/private/shared";
-include "/Downloads/xamp/htdocs/PROGSD2P2";
 
-$root = substr($_SERVER['SCRIPT_NAME'],
-    0,
-    strpos($_SERVER['SCRIPT_NAME'], '/public') + 7);
-define("ROOT_URL", $root);
+define("PRIVATE_PATH", dirname(__FILE__));
+define("SHARED_PATH", PRIVATE_PATH . "/shared");
 
-function url_path($path) {
-    if($path[0] != '/') {
-        $path = "/" . $path;
-    }
-    return ROOT_URL . $path;
-}
+echo SHARED_PATH;
+
+include SHARED_PATH . "/functions.php";
 
 ?>
